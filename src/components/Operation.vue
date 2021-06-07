@@ -69,7 +69,7 @@ export default {
     },
     methods: {
         executeOnce: function(){
-            if(this.instruction_number >= 32){
+            if(this.instruction_number >= 320){
                 if(this.execute_type == '停止执行'){
                     alert("指令执行完毕！");
                     this.$emit('set_execute_type', '连续执行');
