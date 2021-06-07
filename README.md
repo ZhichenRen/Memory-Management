@@ -16,7 +16,7 @@ yarn install
 yarn serve
 ```
 
-本项目已在Github Page上部署，<a href="http://zhichenren.github.io/Memory-Management" style="text-decoration: none;font-weight: bold; color: black;">点击访问</a>。
+本项目已在Github Page上部署，[点击访问](http://ZhichenRen.github.io/Memory-Management)。
 
 ## 功能说明
 
