@@ -3,7 +3,7 @@
 
   <!-- <HelloWorld msg="Hello Vue 3.0 + Vite" /> -->
   <div>
-      <div class="text-3xl mb-5 mx-auto">内存分页模拟</div>
+      <div class="text-3xl mb-5 mx-auto text-center">内存分页模拟</div>
       <div class="grid grid-cols-5 gap-4 ml-8 mr-8 mt-0">
         <Frame :frame_id="0" :switch_page="switch_page[0]" :page_id="page_list[0]" :hit="hit[0]"/>
         <Frame :frame_id="1" :switch_page="switch_page[1]" :page_id="page_list[1]" :hit="hit[1]"/>
