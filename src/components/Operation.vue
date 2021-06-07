@@ -81,12 +81,12 @@ export default {
         },
         continueExecute: function(){
             if(this.execute_type == "连续执行"){
-                alert("开启连续执行！");
+                // alert("开启连续执行！");
                 this.$emit('set_execute_type', '停止执行');
                 this.interval = setInterval(this.executeOnce,1000);
             }
             else{
-                alert("结束连续执行！");
+                // alert("结束连续执行！");
                 this.$emit('set_execute_type', '连续执行');
                 clearInterval(this.interval);
             }
